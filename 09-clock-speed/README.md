@@ -55,7 +55,7 @@ Enter the following command to create a blank Python file with nano (a text edit
 
 Enter the following Python code, or copy and paste it.
 
-```
+```python
 #!/usr/bin/python
 num = 0
 while num <= 1000000:
