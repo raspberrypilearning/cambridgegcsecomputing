@@ -68,7 +68,7 @@ It is also worth it to look at the raw machine code of the program so the studen
 
 `hexdump asm.bin`
 
-This will obviously be completely unintelligible to humans, but reinforces the point that the code has been translated from a human readable form to a machine readable one.  It may also be worth showing that the executable file asm.bin can be distributed and copied to another Raspberry Pi where it will successfully run without the need to be compiled again.
+This will obviously be completely unintelligible to humans, but reinforces the point that the code has been translated from a human readable form to a machine readable one.  It may also be worth showing that the executable file `asm.bin` can be distributed and copied to another Raspberry Pi where it will successfully run without the need to be compiled again.
 
 ##Step 3: Compilers
 
