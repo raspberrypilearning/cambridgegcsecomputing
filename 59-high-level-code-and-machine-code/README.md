@@ -49,7 +49,7 @@ main:
 	bx lr /* halt */
 ```
 
-press `Ctrl - O` to save and `Ctrl - X` to quit.
+Press `Ctrl - O` to save and `Ctrl - X` to quit.
 
 In this program we use three registers; R0, R1 and R2.  We set R1 to 3 and R2 to 4, we the add contents of R1 and R2 together and place the result in R0.  Note the use of the mnemonics mov, add and bx lr.  The last line halts the program.  The code can be assembled using the following Linux command.
 
@@ -93,7 +93,7 @@ main()
 }
 ```
 
-press `Ctrl - O` to save and `Ctrl - X` to quit.
+Press `Ctrl - O` to save and `Ctrl - X` to quit.
 
 In this program we declare a variable called `i`, we then use a looping command to loop 10 times.  Each time around the loop `i` is increased by 1 and we print it to the screen.  After the loop is complete we have our fake command `wibble` which should cause an error to occur.
 
@@ -140,6 +140,8 @@ for i in range(1,11):
 	print i
 wibble
 ```
+
+Press `Ctrl - O` to save and `Ctrl - X` to quit.
 
 In this program we're also looping 10 times and printing the variable i to the screen each time round the loop.  The fake `wibble` command again occurs after the loop.
 
