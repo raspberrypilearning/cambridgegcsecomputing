@@ -39,7 +39,7 @@ The program here is just going to add two numbers together and then halt, exactl
 
 Enter the Arm assembly code below, or copy and paste it.  The text within the `/* */` blocks are comments and do not necessarily need to be entered.
 
-```
+```asm
 .global main
 .func main
 main:
@@ -80,7 +80,7 @@ This command will be `wibble`.  First create a blank C program named `comp.c`.
 
 Enter the C code below, or copy and paste it.
 
-```
+```c
 #include <stdio.h>
 main()
 {
@@ -134,7 +134,7 @@ First create a blank Python file.
 
 Enter the Python code below, or copy and paste it.
 
-```
+```python
 #!/usr/bin/python
 for i in range(1,11):
 	print i
