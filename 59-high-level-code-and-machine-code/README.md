@@ -33,7 +33,7 @@ First check that you have all the parts you need to get your Raspberry Pi set up
 
 ##Step 2: Assemblers
 
-The program here is just going to add two numbers together and then halt, exactly the same as what was done with the Little Man Computer simulator but for real on a Raspberry Pi CPU.  Firstly create a text file named `asm.s`.
+The program here is just going to add two numbers together and then halt, exactly the same as what was done with the Little Man Computer simulator but for real on a Raspberry Pi CPU.  Firstly create a blank text file named `asm.s`.
 
 `nano asm.s`
 
@@ -143,7 +143,7 @@ wibble
 
 Press `Ctrl - O` to save and `Ctrl - X` to quit.
 
-In this program we're also looping 10 times and printing the variable i to the screen each time round the loop.  The fake `wibble` command again occurs after the loop.
+In this program we're also looping 10 times and printing the variable `i` to the screen each time round the loop.  The fake `wibble` command again occurs after the loop.
 
 Since we don't actually compile Python code into a binary file of machine code we use the source code file itself as the executable file.  Use the following Linux commands to first mark the source code file as executable and then run it.
 
