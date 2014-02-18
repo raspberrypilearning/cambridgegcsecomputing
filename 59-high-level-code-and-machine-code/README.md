@@ -33,7 +33,7 @@ First check that you have all the parts you need to get your Raspberry Pi set up
 
 ##Step 2: Assemblers
 
-The program here is just going to add two numbers together and then halt, exactly the same as what was done with the Little Man Computer simulator but for real on a Raspberry Pi CPU.  Firstly create a text file named `asm.s` with the following content.
+The program here is just going to add two numbers together and then halt, exactly the same as what was done with the Little Man Computer simulator but for real on a Raspberry Pi CPU.  Firstly create a text file named `asm.s`.
 
 `nano asm.s`
 
